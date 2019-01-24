@@ -491,9 +491,6 @@ hr {
     .middleBox{
         width: 100%;
     }
-    .amir{
-        display: none;
-    }
     .number p{
         position: unset;
         font-size: 18px;
