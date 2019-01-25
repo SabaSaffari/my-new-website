@@ -505,6 +505,9 @@ hr {
         width: 100%;
         margin: 0;
     }
+    .paragraph2{
+        margin-left: 0;
+    }
     .lineWithNum{
         display: none;
     }
@@ -524,9 +527,6 @@ hr {
     .firstPara{
         padding: 55px 8px;
         width: 100%;
-    }
-    .firstPara i{
-        margin-left: 0;
     }
     .firstPara p{
         font-size: 20px;
@@ -548,6 +548,7 @@ hr {
     .topMain i{
         width: 30%;
         text-align: center;
+        background-color: #e6e660;
     }
     hr{
         display: none;
@@ -561,6 +562,9 @@ hr {
     .firstImages div{
         justify-content: center;
         margin: 80px auto;
+    }
+    .img-margin-top{
+        margin-top: 20px;
     }
     .iphoneList{
         display: none;
@@ -683,6 +687,7 @@ hr {
     }
     .contactInfo{
         padding: 0;
+        width: 100%;
     }
     .flexEnd{
         margin: 0;
@@ -690,5 +695,132 @@ hr {
     .author{
         padding: 5px 0px 0 20px;
         font-size: 12px;
+    }
+}
+@media screen and (min-width:760px){
+    .saba p{
+        position: unset;
+    }
+    .navigation div{
+        display: flex;
+        justify-content: center;
+    }
+    .navigation div a{
+        padding: 0;
+    }
+    .flexContainer, .middleBox {
+        width: 100%;
+    }  
+    .number p{
+        position: unset;
+    }
+    .flex p:nth-child(2){
+        width: 70%;
+    }
+    .paragraph1{
+        width: 50%;
+    }
+    .lineWithNum, .endBoxes{
+        width: 100%;
+    }
+    .firstPara{
+        width: 100%;
+        padding: 40px 10px;
+    }
+    hr, #yellowBox, .burger-icon{
+        display: none;
+    }
+    .topMain h3{
+        width: 60%;
+    }
+    .topMain p{
+        width: 30%;
+        padding: 22px 12px;
+    }
+    .topMain i{
+        width: 10%;
+        text-align: center;
+    }
+    .links{
+        width: 100%;
+        font-size: 16px;
+    }
+    .links a{
+        margin-right: 50px;
+    }
+    .firstImages div{
+        width: 100%;
+        justify-content: space-evenly;
+        margin: 100px auto;
+    }
+    .firstImages img{
+        width: 300px;
+        height: 300px;
+    }
+    .img-margin-top{
+        margin-top: 20px;
+    }
+    .iphoneList{
+        display:none;
+    }
+    .boxWithIcons, .lastImages, .banner, .logos{
+        width: 100%;
+    }
+    .icons{
+        height: auto;
+    }
+    .topLine{
+        margin-top: 80px;
+    }
+    .topLine h3{
+        width: 100%;
+        text-align: start;
+    }
+    .topLine i{
+        width: 10%;
+        background-color: #e2e452;
+        text-align: center;
+        font-size: 30px;
+    }
+    .lastImages div{
+        margin: 20px;
+    }
+    .lastImages img{
+        width: 300px;
+        height: 300px;
+        margin: 0 auto;
+    }
+    .lastImages h4{
+        text-align: center;
+    }
+    .lastImages p br, .grayBox, .title i, .lastYellowBox{
+        display: none;
+    }
+    #readMore{
+        justify-content: center;
+    }
+    .endPart{
+        flex-direction: column;
+    }
+    .lastSaba{
+        width: 100%;
+        display: flex;
+    }
+    .blackBox{
+        position: unset;
+        width: 100%;
+    }
+    .title{
+        position: unset;
+    }
+    .title h3{
+        margin: 70px 0px 0px 0px;
+    }
+    .latestPosts2, .contactInfo{
+        width: 100%;
+        padding: 0;
+    }
+    .flexEnd{
+        margin: 10px 80px;
     }
 }
