@@ -27,9 +27,6 @@ body{
     width:100px;
 }
 .saba p{
-    position: relative;
-    bottom: -110%;
-    left: 15%;
     font-size: 18px;
 }
 .navigation{
@@ -52,7 +49,6 @@ body{
     color: black;
     font-size: 10px;
     cursor: pointer;
-    padding-left: 14px; 
     position: absolute;
     bottom: 22%;
 }
@@ -76,10 +72,7 @@ body{
     display: flex;
 }
 .number p{
-    position: relative;
-    left: 25px;
     font-size: 30px;
-    bottom: -26px;
     line-height: 32px;
     color: black;
 }
@@ -462,7 +455,9 @@ hr {
 
 /* @media */
 
-@media screen and (max-width:425px){
+
+
+ @media only screen and (max-width: 600px){
     .navigation{
         display: none;
         position: absolute;
@@ -696,8 +691,8 @@ hr {
         padding: 5px 0px 0 20px;
         font-size: 12px;
     }
-}
-@media screen and (min-width:760px){
+} 
+ @media only screen and (min-width: 768px) and (max-width: 768px) {
     .saba p{
         position: unset;
     }
@@ -782,6 +777,10 @@ hr {
         text-align: center;
         font-size: 30px;
     }
+    .flex-column{
+        display: flex;
+        flex-direction: column;
+    }
     .lastImages div{
         margin: 20px;
     }
@@ -823,4 +822,271 @@ hr {
     .flexEnd{
         margin: 10px 80px;
     }
+}  
+
+@media only screen and (min-width: 992px) and (max-width: 1025px){
+    .burger-icon{
+        display: none;
+    }
+    .saba p, .number p{
+        position: unset;
+    }
+    .navigation div a{
+        padding-left: 0;
+        font-size: 12px;
+        bottom: 12%;
+    }
+    .flex p:nth-child(2){
+        width: 45%;
+    }
+    .paragraph1{
+        font-size: 16px;
+        width: 45%;
+    }
+    .paragraph2, .paragraph2 i, .links{
+        font-size: 16px;
+    }
+    .img-margin-top, .lastImages div{
+        margin-top: 30px;
+    }
+    .lastImages, .banner{
+        width: 100%;
+    }
+    .lastImages img, .lastImages p, .lastImages h4, #readMore{
+        margin: 0 auto;
+    }
+    .lastImages p{
+        padding: 12px 20px;
+    }
+    .lastImages p br{
+        display: none;
+    }
+    .topMain h3, .topLine h3{
+        width: 30%;
+    }
+    .topMain p{
+        width: 10%;
+    }
+    .topMain i{
+        width: auto;
+    }
+    #yellowBox{
+        width: 12%;
+    }
+    hr{
+        display: inherit;
+    }
+    .firstImages img, .lastImages img{
+        width: 350px;
+        height: 350px;
+    }
+    .iphoneList{
+        display: flex;
+    }
+    .icons{
+        height: max-content;
+    }
+    .boxWithIcons{
+        width: 50%;
+    }
+    .topLine i{
+        width: 5%;
+    }
+    .lastImages h4, .lastImages p, #readMore i{
+        font-size: 22px;
+    }
+    .lastSaba{
+        justify-content: space-evenly;
+    }
+    .lastSaba div{
+        padding: 30px 40px;
+    }
+    .lastSaba i, .lastSaba h3{
+        font-size: 35px;
+    }
+    .latestPosts2, .contactInfo{
+        width: 100%;
+        padding: 0;
+    }
+    .lastSaba h3, .lastSaba p{
+        padding: 25px 40px;
+    }
+    .flexEnd{
+        margin: 14px 50px;
+    }
+    .lastColumn p{
+        font-size: 16px;
+    }
+    .blackBox, .title{
+        position: unset;
+    }
+    .title h3{
+        margin: 0;
+    }
+    .title i{
+        display: none;
+    }
+}  
+@media only screen and (min-width: 760px) and (max-width: 2560px){
+    .burger-icon{
+        display: none; 
+    }
 }
+@media only screen and (min-width: 1440px){
+    .flex-column{
+        display: flex;
+        flex-direction: row;
+    }
+}
+
+
+
+@media only screen and (min-width: 2021px){
+    .saba, .navigation div{
+        width: auto;
+        padding: 80px 76px;
+    }
+    .navigation div i, .icons i, .lastSaba h3, .lastSaba i{
+        font-size: 80px;
+    }
+    .navigation div a{
+        font-size: 20px;
+    }
+    .saba p{
+        font-size: 40px;
+    }
+    .flex p:nth-child(2){
+        padding: 60px 30px;
+        font-size: 50px;
+        width: 50%;
+    }
+    .number{
+        padding: 70px 25px;
+    }
+    .number p, .lineWithNum, .endBoxes i, .firstPara p, .firstPara i, .quote i, .lastColumn i{
+        font-size: 50px;
+    }
+    .paragraph1{
+        width: 50%;
+        padding: 35px;
+        font-size: 30px;
+    }
+    .paragraph2, .paragraph2 i, .endBoxes h3, .topMain h3, .links, .setPadding h3, 
+    .topLine h3, .lastImages h4, #readMore p, #readMore i, .lastSaba p, .title h3{
+        font-size: 35px;
+    }
+    .lineWithNum p:nth-child(1){
+        border-bottom: 7px solid #feffffad;
+    }
+    .lineWithNum p:nth-child(2){
+        border-bottom: 7px solid #e8cece;
+    }
+    .lineWithNum p:nth-child(3){
+        border-bottom: 7px solid #a79eb9ad;
+    } 
+    .endBoxes p{
+        margin: 20px 10px;
+        font-size: 30px;
+    }
+    .firstPara{
+        padding: 100px 0;
+    }
+    #yellowBox{
+        height: 100px;
+    }
+    .topMain h3, .topLine h3{
+        height: 100px;
+        padding: 22px 100px;
+    }
+    .topMain p, .topMain i{
+        padding: 22px 25px;
+        font-size: 30px;
+    }
+    .topLine h3{
+        width: 20%;
+    }
+    hr{
+        margin-top: 45px; 
+    }
+    .links a{
+        padding: 15px 45px;
+    }
+    .firstImages img, .lastImages img{
+        width: 500px;
+        height: 500px;
+    }
+    .firstImages, .banner, .endPart{
+        margin-top: 100px;
+    }
+    #sizePhone{
+        font-size: 600px;
+    }
+    .setPadding{
+        padding: 20px 50px;
+    }
+    .setPadding p{
+        font-size: 30px;
+        padding: 20px 0;
+    }
+    .borderTop{
+        border-top: 50px solid yellow;
+    }
+    .icons{
+        height: 55%;
+    }
+    #blueBox, #blueBox2{
+        height: 200px;
+    }
+    .borderRight{
+        border-right: 35px solid blue;
+    }
+    .topLine i, .title i{
+        text-align: center;
+        font-size: 60px;
+    }
+    .lastImages p{
+        font-size: 30px;
+    }
+    .lastImages p br{
+        display: none;
+    } 
+    .grayBox{
+        width: 15%;
+    }
+    .banner p{
+        font-size: 50px;
+        padding: 115px 20px 20px 20px;
+    }
+    .banner img{
+        width: 350px;
+        height: 350px;
+    }
+    .logos img{
+        width: 130px;
+        height: 100px;
+    }
+    .lastYellowBox{
+        width: 9%;
+    }
+    .lastSaba{
+        width: 25%;
+    }   
+    .lastColumn p{
+        font-size: 30px;
+    }
+    .lastColumn time{
+        font-size: 22px;
+    }
+    .latestPosts2{
+        margin: 0 auto;
+        margin-left: 70px;
+        width: 50%;
+    }
+    .contactInfo{
+        width: 80%;
+    }
+    .author p{
+        font-size: 30px;
+    }
+}
+
