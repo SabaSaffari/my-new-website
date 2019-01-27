@@ -932,14 +932,12 @@ hr {
         display: none; 
     }
 }
-@media only screen and (min-width: 1440px){
+@media only screen and (min-width: 1350px){
     .flex-column{
         display: flex;
         flex-direction: row;
     }
 }
-
-
 
 @media only screen and (min-width: 2021px){
     .saba, .navigation div{
